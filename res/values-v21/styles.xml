@@ -27,8 +27,8 @@
         <item name="android:displayOptions"></item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarStyle">@style/Material.ActionBar</item>
-        <item name="android:colorBackground">@color/material_red</item>
-        <item name="android:colorBackgroundCacheHint">@color/material_red</item>
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:colorBackgroundCacheHint">@color/primary</item>
         <item name="android:actionModeBackground">@color/primary</item>
     </style>
     <style name="Theme.Crop" parent="Theme.GalleryBase">
@@ -54,9 +54,6 @@
     </style>
     <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title"></style>
     <style name="ActionBarTwoLineSecondary" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle"></style>
-    <style name="ActionBarTwoLineItem">
-        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
-    </style>
     <style name="ActionBarMenuItem" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small"></style>
     <style name="Theme.Photos.Gallery" parent="android:Theme.Material">
     </style>
